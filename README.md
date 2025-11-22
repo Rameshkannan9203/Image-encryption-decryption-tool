@@ -95,5 +95,3 @@ The encryption is basic and for educational purposes only
 Ramesh Kannan
 Internship Project – Image Encryption Tool
 
-yaml
-Copy code

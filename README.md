@@ -17,6 +17,7 @@ This project demonstrates a simple image encryption method with a **colorful web
 
 ## 📂 Folder Structure
 
+
 pixel_encryption_flask/
 │
 ├── app.py # Flask backend

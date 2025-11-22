@@ -1,4 +1,4 @@
-🌈🔐 Pixel Manipulation Image Encryption Tool (Flask Web App)  
+🔐 Pixel Manipulation Image Encryption Tool (Flask Web App)  
 A **Flask-based web application** to **encrypt and decrypt images** using **pixel manipulation and pixel swapping**.  
 
 ---

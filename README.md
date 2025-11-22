@@ -28,8 +28,7 @@ pixel_encryption_flask/
 ├── index.html # Upload page
 └── result.html # Processed image preview page
 
-yaml
-Copy code
+
 
 > ✅ Tip: `processed_image.png` is generated automatically when you encrypt or decrypt an image.  
 
@@ -48,18 +47,13 @@ pip install flask pillow
 🚀 How to Run
 Open PowerShell or Command Prompt in your project folder:
 
-powershell
-Copy code
 cd C:\task2
 Run the Flask app:
 
-bash
-Copy code
 python app.py
 Open a browser and go to:
 
-cpp
-Copy code
+
 http://127.0.0.1:5000/
 On the web page:
 

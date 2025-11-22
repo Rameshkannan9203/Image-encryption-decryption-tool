@@ -13,19 +13,6 @@
 
 ---
 
-## 🌙 Dark Mode Preview  
-*(Replace with your screenshot)*  
-
-
-
----
-
-## 📸 Light Mode Preview  
-
-
-
-
----
 
 ## 📌 Overview  
 The **Pixel Manipulation Image Encryption Tool** is a web-based application that allows users to **encrypt and decrypt images** using a numeric key.  

@@ -7,11 +7,11 @@ This project demonstrates a simple image encryption method with a **colorful web
 
 ## ✨ Features
 
-- 🔒 Encrypt and decrypt images using a **numeric key**  
-- 🎨 Pixel values are **modified mathematically** and pixels are **randomly shuffled**  
-- 👁️ Preview the **processed image** on a web page  
-- 💾 Download the encrypted or decrypted image  
-- 🌈 Colorful, user-friendly interface using **HTML, CSS, and Flask**
+- 🔒 **Encrypt and decrypt images** using a numeric key  
+- 🎨 **Modify pixel values mathematically** and **randomly shuffle pixels**  
+- 👁️ **Preview the processed image** on a web page  
+- 💾 **Download the encrypted or decrypted image**  
+- 🌈 **Colorful, user-friendly interface** using HTML, CSS, and Flask  
 
 ---
 
@@ -29,6 +29,7 @@ pixel_encryption_flask/
 
 
 
+
 > ✅ Tip: `processed_image.png` is generated automatically when you encrypt or decrypt an image.
 
 ---
@@ -41,8 +42,9 @@ pixel_encryption_flask/
 
 **Install required packages:**
 
+```bash
 pip install flask pillow
-🚀 How to Run
+**🚀 How to Run**
 Open PowerShell or Command Prompt in your project folder:
 
 
@@ -57,7 +59,7 @@ Open a browser and go to:
 http://127.0.0.1:5000/
 On the web page:
 
-Upload an image (JPG, PNG, etc.)
+Upload the image (JPG, PNG, etc.)
 
 Enter a numeric key 🔑
 
@@ -70,25 +72,28 @@ Click Download to save the image
 🔑 How It Works
 Encryption:
 
-Adds the key to each pixel's RGB values (mod 256)
+Add the key to each pixel's RGB values (mod 256)
 
-Randomly swaps some pixels
+Randomly swap some pixels
 
-Saves the result as processed_image.png
+Save the result as processed_image.png
 
 Decryption:
 
-Subtracts the key from each pixel's RGB values (mod 256)
+Subtract the key from each pixel's RGB values (mod 256)
 
-Applies the same pixel swaps
+Apply the same pixel swaps
 
-Restores the original image
+Restore the original image
 
 ⚠️ Notes
 Do NOT open index.html or result.html directly — always use the Flask URL: http://127.0.0.1:5000/
 
-The encryption is basic and for educational purposes only.
+The encryption is basic and for educational purposes only
 
 👤 Author
 Ramesh Kannan
 Internship Project – Image Encryption Tool
+
+yaml
+Copy code

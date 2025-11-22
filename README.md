@@ -1,21 +1,27 @@
-# 🎨 Pixel Manipulation Image Encryption Tool
-
+🌈🔐 Pixel Manipulation Image Encryption Tool (Flask Web App)  
 A **Flask-based web application** to **encrypt and decrypt images** using **pixel manipulation and pixel swapping**.  
-This project demonstrates a simple image encryption method with a **colorful web interface**.  
 
 ---
 
-## ✨ Features
+🌙 Dark/Light Mode Preview *(if added later)*  
+![Preview Screenshot](https://your-screenshot-link-here)
 
-- 🔒 **Encrypt and decrypt images** using a numeric key  
+📌 **Overview**  
+This tool is a simple web-based application that allows users to encrypt and decrypt images using a **numeric key**, performing pixel-level modifications and swaps for educational purposes.  
+
+---
+
+🚀 **Features**
+
+- 🔒 AES-like simple **pixel encryption/decryption** using a numeric key  
 - 🎨 **Modify pixel values mathematically** and **randomly shuffle pixels**  
-- 👁️ **Preview the processed image** on a web page  
-- 💾 **Download the encrypted or decrypted image**  
+- 👁️ **Preview processed images** in browser  
+- 💾 **Download encrypted/decrypted images**  
 - 🌈 **Colorful, user-friendly interface** using HTML, CSS, and Flask  
 
 ---
 
-## 📂 Folder Structure
+📂 **Project Folder Structure**
 
 pixel_encryption_flask/
 ├── app.py # Flask backend
@@ -30,34 +36,27 @@ pixel_encryption_flask/
 
 
 
-> ✅ Tip: `processed_image.png` is generated automatically when you encrypt or decrypt an image.
+
+> ✅ Tip: `processed_image.png` is created automatically when encrypting/decrypting images.
 
 ---
 
-## 🛠️ Requirements
+⚙️ **Installation**
 
-- Python 3.x  
-- Flask  
-- Pillow (Python Imaging Library)  
-
-**Install required packages:**
+1️⃣ **Install dependencies**  
 
 ```bash
 pip install flask pillow
-**🚀 How to Run**
-Open PowerShell or Command Prompt in your project folder:
+2️⃣ Run the Flask app
 
-
-cd C:\task2
-Run the Flask app:
 
 
 python app.py
-Open a browser and go to:
+3️⃣ Open the web page
 
 
 http://127.0.0.1:5000/
-On the web page:
+📡 How to Use
 
 Upload the image (JPG, PNG, etc.)
 
@@ -70,28 +69,42 @@ Preview the processed image
 Click Download to save the image
 
 🔑 How It Works
+
 Encryption:
 
-Add the key to each pixel's RGB values (mod 256)
+Adds the key to each pixel’s RGB values (mod 256)
 
-Randomly swap some pixels
+Randomly swaps some pixels
 
-Save the result as processed_image.png
+Saves the result as processed_image.png
 
 Decryption:
 
-Subtract the key from each pixel's RGB values (mod 256)
+Subtracts the key from each pixel’s RGB values (mod 256)
 
-Apply the same pixel swaps
+Applies the same pixel swaps
 
-Restore the original image
+Restores the original image
 
-⚠️ Notes
-Do NOT open index.html or result.html directly — always use the Flask URL: http://127.0.0.1:5000/
+⭐ Future Improvements
 
-The encryption is basic and for educational purposes only
+Add Dark/Light mode toggle
 
-👤 Author
-Ramesh Kannan
-Internship Project – Image Encryption Tool
+Add file upload encryption
+
+Make a mobile-friendly version
+
+Host online (GitHub Pages / Cloud)
+
+🧑‍💻 Developer
+
+RameshKannan M
+Cybersecurity & Networking Enthusiast
+
+GitHub: https://github.com/Rameshkannan9203
+
+📜 License
+
+For educational purposes & learning only
+
 

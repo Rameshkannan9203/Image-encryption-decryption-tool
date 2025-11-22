@@ -20,16 +20,16 @@ This project demonstrates a simple image encryption method with a **colorful web
 pixel_encryption_flask/
 ├── app.py # Flask backend
 ├── uploads/ # Temporary folder for uploaded images
-├── static/
-│ ├── style.css # CSS file
-│ └── processed_image.png
-└── templates/
-├── index.html
-└── result.html
+├── static/ # Static files like CSS and processed images
+│ ├── style.css # CSS file for styling
+│ └── processed_image.png # Generated encrypted/decrypted image
+└── templates/ # HTML templates
+├── index.html # Upload page
+└── result.html # Processed image preview page
 
 
 
-> ✅ Tip: `processed_image.png` is generated automatically when you encrypt or decrypt an image.  
+> ✅ Tip: `processed_image.png` is generated automatically when you encrypt or decrypt an image.
 
 ---
 
@@ -37,17 +37,18 @@ pixel_encryption_flask/
 
 - Python 3.x  
 - Flask  
-- Pillow (Python Imaging Library)
+- Pillow (Python Imaging Library)  
 
 **Install required packages:**
 
-```bash
 pip install flask pillow
 🚀 How to Run
 Open PowerShell or Command Prompt in your project folder:
 
+
 cd C:\task2
 Run the Flask app:
+
 
 python app.py
 Open a browser and go to:

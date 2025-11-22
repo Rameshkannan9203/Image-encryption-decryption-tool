@@ -1,23 +1,28 @@
-🔐 Pixel Manipulation Image Encryption Tool (Flask Web App)  
+🌙🔐 Pixel Manipulation Image Encryption Tool (Dark Mode Edition)  
 A **Flask-based web application** to **encrypt and decrypt images** using **pixel manipulation and pixel swapping**.  
 
 ---
 
-🌙 Dark/Light Mode Preview *(if added later)*  
-![Preview Screenshot](https://your-screenshot-link-here)
+🌌 **Dark Mode Preview** *(add screenshot if available)*  
+![Dark Mode Screenshot](https://your-darkmode-image-link-here)
+
+🌞 **Light Mode Preview** *(optional)*  
+![Light Mode Screenshot](https://your-lightmode-image-link-here)
 
 📌 **Overview**  
-This tool is a simple web-based application that allows users to encrypt and decrypt images using a **numeric key**, performing pixel-level modifications and swaps for educational purposes.  
+This tool is a **secure educational app** that allows users to encrypt and decrypt images using a numeric key.  
+It modifies pixels mathematically and swaps them for basic encryption demonstration.  
 
 ---
 
 🚀 **Features**
 
-- 🔒 AES-like simple **pixel encryption/decryption** using a numeric key  
-- 🎨 **Modify pixel values mathematically** and **randomly shuffle pixels**  
-- 👁️ **Preview processed images** in browser  
-- 💾 **Download encrypted/decrypted images**  
-- 🌈 **Colorful, user-friendly interface** using HTML, CSS, and Flask  
+- 🔒 **Pixel-level encryption/decryption** using a numeric key  
+- 🎨 **Mathematically modify pixel values** and **randomly shuffle pixels**  
+- 👁️ **Preview encrypted/decrypted images** in browser  
+- 💾 **Download processed images**  
+- 🌈 **User-friendly, colorful interface** using **HTML, CSS, Flask**  
+- 🌙 Optional **Dark Mode** theme (can be added to CSS later)  
 
 ---
 
@@ -27,17 +32,14 @@ pixel_encryption_flask/
 ├── app.py # Flask backend
 ├── uploads/ # Temporary folder for uploaded images
 ├── static/ # Static files like CSS and processed images
-│ ├── style.css # CSS file for styling
+│ ├── style.css # CSS file for styling (can include dark mode)
 │ └── processed_image.png # Generated encrypted/decrypted image
 └── templates/ # HTML templates
 ├── index.html # Upload page
 └── result.html # Processed image preview page
 
 
-
-
-
-> ✅ Tip: `processed_image.png` is created automatically when encrypting/decrypting images.
+> ✅ Tip: `processed_image.png` is automatically generated when encrypting/decrypting images.
 
 ---
 
@@ -48,7 +50,6 @@ pixel_encryption_flask/
 ```bash
 pip install flask pillow
 2️⃣ Run the Flask app
-
 
 
 python app.py
@@ -88,7 +89,7 @@ Restores the original image
 
 ⭐ Future Improvements
 
-Add Dark/Light mode toggle
+Add Dark/Light Mode toggle in CSS
 
 Add file upload encryption
 
@@ -98,7 +99,7 @@ Host online (GitHub Pages / Cloud)
 
 🧑‍💻 Developer
 
-RameshKannan M
+RameshKannan
 Cybersecurity & Networking Enthusiast
 
 GitHub: https://github.com/Rameshkannan9203
@@ -106,5 +107,3 @@ GitHub: https://github.com/Rameshkannan9203
 📜 License
 
 For educational purposes & learning only
-
-

@@ -31,6 +31,8 @@ pixel_encryption_flask/
 yaml
 Copy code
 
+> ✅ Tip: `processed_image.png` is generated automatically when you encrypt or decrypt an image.  
+
 ---
 
 ## 🛠️ Requirements
@@ -39,19 +41,22 @@ Copy code
 - Flask  
 - Pillow (Python Imaging Library)
 
-Install required packages:
+**Install required packages:**
 
 ```bash
 pip install flask pillow
 🚀 How to Run
-Open terminal/command prompt in the project folder.
+Open PowerShell or Command Prompt in your project folder:
 
+powershell
+Copy code
+cd C:\task2
 Run the Flask app:
 
 bash
 Copy code
 python app.py
-Open a web browser and go to:
+Open a browser and go to:
 
 cpp
 Copy code
@@ -86,7 +91,7 @@ Applies the same pixel swaps
 Restores the original image
 
 ⚠️ Notes
-Do NOT open index.html or result.html directly — always access via Flask URL: http://127.0.0.1:5000/
+Do NOT open index.html or result.html directly — always use the Flask URL: http://127.0.0.1:5000/
 
 The encryption is basic and for educational purposes only.
 

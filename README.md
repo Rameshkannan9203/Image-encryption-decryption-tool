@@ -17,17 +17,15 @@ This project demonstrates a simple image encryption method with a **colorful web
 
 ## 📂 Folder Structure
 
-
 pixel_encryption_flask/
-│
 ├── app.py # Flask backend
 ├── uploads/ # Temporary folder for uploaded images
-├── static/ # Static files like CSS and processed images
-│ ├── style.css # CSS file for styling
-│ └── processed_image.png # Generated encrypted/decrypted image
-└── templates/ # HTML templates
-├── index.html # Upload page
-└── result.html # Processed image preview page
+├── static/
+│ ├── style.css # CSS file
+│ └── processed_image.png
+└── templates/
+├── index.html
+└── result.html
 
 
 

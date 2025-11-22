@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pixel Encryption Tool</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Pixel Manipulation Image Encryption</h1>
+        <form method="POST" enctype="multipart/form-data">
+            <label>Select Image:</label>
+            <input type="file" name="image" required><br><br>
+
+            <label>Enter Key (Number):</label>
+            <input type="number" name="key" required><br><br>
+
+            <button type="submit" name="action" value="encrypt">Encrypt</button>
+            <button type="submit" name="action" value="decrypt">Decrypt</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+from PIL import Image, ImageDraw, ImageFont
+
+img = Image.open('your_image.png')
+draw = ImageDraw.Draw(img)
+font = ImageFont.load_default()
+draw.text((10, 10), "This is my secret text", fill=(255, 255, 0))
+img.save('processed_image.png')

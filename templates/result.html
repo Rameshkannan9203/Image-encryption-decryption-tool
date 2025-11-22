@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Processed Image</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Processed Image Preview</h1>
+        <img src="{{ image_url }}" alt="Processed Image" class="preview">
+        <br>
+        <a href="{{ image_url }}" download>
+            <button>Download Image</button>
+        </a>
+        <br><br>
+        <a href="{{ url_for('index') }}">
+            <button>Go Back</button>
+        </a>
+    </div>
+</body>
+</html>

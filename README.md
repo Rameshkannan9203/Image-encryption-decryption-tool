@@ -1,109 +1,108 @@
-🌙🔐 Pixel Manipulation Image Encryption Tool (Dark Mode Edition)  
-A **Flask-based web application** to **encrypt and decrypt images** using **pixel manipulation and pixel swapping**.  
+<h1 align="center">🌙🔐 Pixel Manipulation Image Encryption Tool (Dark Mode Edition)</h1>
+<p align="center">
+  <b>A Flask-based web app to encrypt and decrypt images using pixel manipulation and pixel swapping</b>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Mode-Dark%20%26%20Light-blueviolet">
+  <img src="https://img.shields.io/badge/Language-Python-blue">
+  <img src="https://img.shields.io/badge/Backend-Flask-orange">
+  <img src="https://img.shields.io/badge/Encryption-Pixel--Level-purple">
+  <img src="https://img.shields.io/badge/Status-Active-success">
+</p>
 
 ---
 
-🌌 **Dark Mode Preview** *(add screenshot if available)*  
-![Dark Mode Screenshot](https://your-darkmode-image-link-here)
+## 🌙 Dark Mode Preview  
+*(Replace with your screenshot)*  
 
-🌞 **Light Mode Preview** *(optional)*  
-![Light Mode Screenshot](https://your-lightmode-image-link-here)
 
-📌 **Overview**  
-This tool is a **secure educational app** that allows users to encrypt and decrypt images using a numeric key.  
-It modifies pixels mathematically and swaps them for basic encryption demonstration.  
 
 ---
 
-🚀 **Features**
+## 📸 Light Mode Preview  
 
-- 🔒 **Pixel-level encryption/decryption** using a numeric key  
-- 🎨 **Mathematically modify pixel values** and **randomly shuffle pixels**  
-- 👁️ **Preview encrypted/decrypted images** in browser  
-- 💾 **Download processed images**  
-- 🌈 **User-friendly, colorful interface** using **HTML, CSS, Flask**  
-- 🌙 Optional **Dark Mode** theme (can be added to CSS later)  
+
+
 
 ---
 
-📂 **Project Folder Structure**
+## 📌 Overview  
+The **Pixel Manipulation Image Encryption Tool** is a web-based application that allows users to **encrypt and decrypt images** using a numeric key.  
+It modifies pixel values mathematically and swaps them for basic encryption demonstration.
 
+✨ **Colorful and user-friendly interface**  
+✨ **Preview processed images before downloading**  
+✨ **Simple encryption and decryption steps for educational purposes**
+
+---
+
+## 🚀 Features  
+- 🔒 Encrypt and decrypt images using a **numeric key**  
+- 🎨 Pixel values are **modified mathematically** and **pixels are randomly shuffled**  
+- 👁️ Preview the **processed image** in the browser  
+- 💾 Download the **encrypted/decrypted image**  
+- 🌈 Colorful and responsive **HTML/CSS interface**  
+- ⚡ **Flask backend** handles processing  
+
+---
+
+## 🗂️ Project Structure
 pixel_encryption_flask/
 ├── app.py # Flask backend
 ├── uploads/ # Temporary folder for uploaded images
-├── static/ # Static files like CSS and processed images
-│ ├── style.css # CSS file for styling (can include dark mode)
+├── static/ # Static files (CSS & processed images)
+│ ├── style.css # Styling
 │ └── processed_image.png # Generated encrypted/decrypted image
 └── templates/ # HTML templates
 ├── index.html # Upload page
 └── result.html # Processed image preview page
 
 
-> ✅ Tip: `processed_image.png` is automatically generated when encrypting/decrypting images.
 
 ---
 
-⚙️ **Installation**
+## ⚙️ Installation
 
-1️⃣ **Install dependencies**  
-
+### 1️⃣ Install Dependencies
 ```bash
 pip install flask pillow
-2️⃣ Run the Flask app
-
+2️⃣ Run Backend
 
 python app.py
-3️⃣ Open the web page
-
+3️⃣ Open Frontend
 
 http://127.0.0.1:5000/
-📡 How to Use
+📡 How It Works
+🔸 Encrypt
+Add the numeric key to each pixel’s RGB values (mod 256)
 
-Upload the image (JPG, PNG, etc.)
+Randomly swap pixels
 
-Enter a numeric key 🔑
+Save result as processed_image.png
 
-Click Encrypt or Decrypt
+🔸 Decrypt
+Subtract the numeric key from each pixel’s RGB values (mod 256)
 
-Preview the processed image
+Apply same pixel swaps
 
-Click Download to save the image
-
-🔑 How It Works
-
-Encryption:
-
-Adds the key to each pixel’s RGB values (mod 256)
-
-Randomly swaps some pixels
-
-Saves the result as processed_image.png
-
-Decryption:
-
-Subtracts the key from each pixel’s RGB values (mod 256)
-
-Applies the same pixel swaps
-
-Restores the original image
+Restore original image
 
 ⭐ Future Improvements
+Add Dark/Light Mode toggle
 
-Add Dark/Light Mode toggle in CSS
+File upload encryption
 
-Add file upload encryption
+Mobile-friendly interface
 
-Make a mobile-friendly version
-
-Host online (GitHub Pages / Cloud)
+Online hosted version
 
 🧑‍💻 Developer
-
-RameshKannan
+Ramesh Kannan
 Cybersecurity & Networking Enthusiast
 
-GitHub: https://github.com/Rameshkannan9203
+GitHub Profile:
+https://github.com/Rameshkannan9203
 
 📜 License
-
 For educational purposes & learning only

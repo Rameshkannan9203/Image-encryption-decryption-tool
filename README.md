@@ -35,6 +35,8 @@ It modifies pixel values mathematically and swaps them for basic encryption demo
 ---
 
 ## 🗂️ Project Structure
+
+```text
 pixel_encryption_flask/
 ├── app.py # Flask backend
 ├── uploads/ # Temporary folder for uploaded images
@@ -45,7 +47,7 @@ pixel_encryption_flask/
 ├── index.html # Upload page
 └── result.html # Processed image preview page
 
-
+```
 
 ---
 
@@ -54,42 +56,42 @@ pixel_encryption_flask/
 ### 1️⃣ Install Dependencies
 ```bash
 pip install flask pillow
-2️⃣ Run Backend
-
+```
+## 2️⃣ Run Backend
+```bash
 python app.py
-3️⃣ Open Frontend
+```
 
+## 3️⃣ Open Frontend
+```bash
 http://127.0.0.1:5000/
-📡 How It Works
-🔸 Encrypt
-Add the numeric key to each pixel’s RGB values (mod 256)
+```
+## 📡 How It Works
+**🔸 Encrypt**
+- Add the numeric key to each pixel’s RGB values (mod 256)
 
-Randomly swap pixels
+- Randomly swap pixels
 
-Save result as processed_image.png
+- Save result as processed_image.png
 
-🔸 Decrypt
-Subtract the numeric key from each pixel’s RGB values (mod 256)
+**🔸 Decrypt**
+- Subtract the numeric key from each pixel’s RGB values (mod 256)
 
-Apply same pixel swaps
+- Apply same pixel swaps
 
-Restore original image
+- Restore original image
 
-⭐ Future Improvements
-Add Dark/Light Mode toggle
+## ⭐ Future Improvements
+- Add Dark/Light Mode toggle
 
-File upload encryption
+- File upload encryption
 
-Mobile-friendly interface
+- Mobile-friendly interface
 
-Online hosted version
+- Online hosted version
 
-🧑‍💻 Developer
-Ramesh Kannan
+### 🧑‍💻 Developer
+**RameshKannan**
 Cybersecurity & Networking Enthusiast
 
-GitHub Profile:
-https://github.com/Rameshkannan9203
 
-📜 License
-For educational purposes & learning only
